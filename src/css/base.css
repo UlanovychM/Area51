@@ -1,0 +1,17 @@
+:root {
+  --yellow-main: #ffe550;
+  --hover-color: #bbf330;
+  --color-main-text: #2c2c2c;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--color-main-text);
+}
+
+.container {
+  width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}

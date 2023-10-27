@@ -1,0 +1,58 @@
+.offering {
+  background-color: var(--yellow-main);
+}
+.offering-container {
+  display: flex;
+  justify-content: space-between;
+}
+.offering-left {
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.offering-title {
+  color: var(--color-main-text);
+  font-family: Roboto, sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.offering-subtitle {
+  color: var(--color-main-text);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.offering-list {
+}
+.offering-item {
+}
+.offering-delivery-title {
+  color: var(--color-main-text);
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.offering-text {
+}
+.offering-btn {
+  color: var(--color-main-text);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 30px;
+  border: 2px solid #7eb101;
+  background: #fff;
+  display: inline-flex;
+  height: 40px;
+  padding: 10px 22px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.offering-wrap-icon {
+}
