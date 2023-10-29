@@ -1,0 +1,24 @@
+.header {
+}
+.header__nav {
+}
+.header__menu_items {
+}
+.header__menu_item {
+}
+.header__link {
+}
+
+.header__tel {
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  padding: 14px 28px;
+}
+.header__contacts_link {
+}
+.header__social_links {
+}
+.header__social_link {
+}
+.footer__item_icon {
+}
