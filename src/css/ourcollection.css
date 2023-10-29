@@ -1,4 +1,11 @@
-/* Reset styles */
+@import url('./footer.css');
+@import url('./testimonials.css');
+@import url('./header.css');
+@import url('./yourorder.css');
+@import url('./aboutus.css');
+@import url('./hero.css');
+@import url('./ourcollection.css');
+
 h1,
 h2,
 h3,
@@ -32,4 +39,124 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.collection {
+  background: #1c2225;
+  padding-top: 80px;
+}
+
+.div-container {
+  background-image: url(../img/ourcollection/ornamentyellow.png);
+  background-size: 199px 177px;
+  background-repeat: no-repeat;
+  background-position: top 150px left -150px;
+  background-origin: border-box;
+}
+
+.collection-title {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px 20px;
+}
+
+.collection-item {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.collection-img {
+  border-radius: 4px;
+  padding-bottom: 18px;
+}
+
+.collection-img:hover {
+  transform: scale(1.2);
+}
+
+.collection-subtitle {
+  overflow: hidden;
+  color: var(--white, #fcf9f9);
+  text-overflow: ellipsis;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.collection-item-price {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+@media screen and (min-width: 375px) {
+  .div-container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .div-container {
+    max-width: 734px;
+    margin: 0 auto;
+    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-size: 338px 300px;
+    background-repeat: no-repeat;
+    background-position: top 150px left -200px;
+  }
+
+  .collection {
+    padding-top: 100px;
+  }
+  .collection-item {
+    width: calc((100% - 20px) / 2);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .collection-subtitle {
+    font-size: 18px;
+  }
+  .collection-item-price {
+    font-size: 18px;
+  }
+
+  .collection-img {
+    width: 342px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .div-container {
+    max-width: 1112px;
+    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-size: 338px 300px;
+    background-repeat: no-repeat;
+    background-position: top 150px left -200px;
+  }
+  .collection-item {
+    width: calc((100% - 40px) / 3);
+  }
 }
