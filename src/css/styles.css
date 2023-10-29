@@ -6,6 +6,11 @@
 @import url('./hero.css');
 @import url('./ourcollection.css');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -44,7 +49,7 @@ img {
   font-family: 'Manrope', sans-serif;
   line-height: normal;
   color: #fcf9f9;
-  background-color: #1c2225;
+  background-color: var(--black-color);
   --white-color: #fcf9f9;
   --black-color: #1c2225;
   --yellow-color: #ecd979;
@@ -101,5 +106,3 @@ img {
     padding-bottom: 75px;
   }
 }
-
-
