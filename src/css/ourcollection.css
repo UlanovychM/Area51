@@ -1,3 +1,9 @@
+@import url('./footer.css');
+@import url('./testimonials.css');
+@import url('./header.css');
+@import url('./yourorder.css');
+@import url('./aboutus.css');
+@import url('./hero.css');
 @import url('./ourcollection.css');
 
 h1,
@@ -40,6 +46,14 @@ img {
   padding-top: 80px;
 }
 
+.div-container {
+  background-image: url(../img/ourcollection/ornamentyellow.png);
+  background-size: 199px 177px;
+  background-repeat: no-repeat;
+  background-position: top 150px left -150px;
+  background-origin: border-box;
+}
+
 .collection-title {
   color: var(--white, #fcf9f9);
   font-family: Manrope;
@@ -66,6 +80,10 @@ img {
 .collection-img {
   border-radius: 4px;
   padding-bottom: 18px;
+}
+
+.collection-img:hover {
+  transform: scale(1.2);
 }
 
 .collection-subtitle {
@@ -103,6 +121,10 @@ img {
   .div-container {
     max-width: 734px;
     margin: 0 auto;
+    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-size: 338px 300px;
+    background-repeat: no-repeat;
+    background-position: top 150px left -200px;
   }
 
   .collection {
@@ -129,6 +151,10 @@ img {
 @media screen and (min-width: 1280px) {
   .div-container {
     max-width: 1112px;
+    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-size: 338px 300px;
+    background-repeat: no-repeat;
+    background-position: top 150px left -200px;
   }
   .collection-item {
     width: calc((100% - 40px) / 3);
