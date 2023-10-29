@@ -11,6 +11,8 @@
         class="order-form-input"
         type="text"
         name="username"
+        autofocus
+        required
         pattern="[A-Za-z]{1,15}+[A-Za-z]{1,15}+[A-Za-z]{1,15}"
         title="Username should be used contain any letter case."
         placeholder="Enter your full name"
@@ -19,6 +21,7 @@
         class="order-form-input"
         type="email"
         name="email"
+        required
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
         title="Email must be in the following order: characters@characters.domain."
         placeholder="Enter your email"
