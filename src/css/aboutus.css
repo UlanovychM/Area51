@@ -6,9 +6,9 @@
 .aboutus-container {
     background-image: url(/img/aboutus/about-ornament-mobile.png);
     background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 250px 408px;
-    padding-bottom: 62px;
+        background-repeat: no-repeat;
+        background-size: 250px 408px;
+        padding-bottom: 62px;
 }
 
 @media (max-width: 767px) {
@@ -27,10 +27,10 @@
 
 .aboutus-title {
     font-size: 32px;
-    font-weight: 500;
-    line-height: 1.38;
-    letter-spacing: -0.03em;
-    margin-bottom: 40px;
+        font-weight: 500;
+        line-height: 1.38;
+        letter-spacing: -0.03em;
+        margin-bottom: 40px;
 }
 
 .aboutus-text {
