@@ -1,0 +1,34 @@
+<section class="order container">
+  <div class="background"></div>
+  <div class="yorder">
+    <h2>
+      <span class="title-color">Your order</span> is our priority: Personalized
+      approach and quality of service
+    </h2>
+
+    <form class="order-form">
+      <input
+        class="order-form-input"
+        type="text"
+        name="username"
+        pattern="[A-Za-z]{1,15}+[A-Za-z]{1,15}+[A-Za-z]{1,15}"
+        title="Username should be used contain any letter case."
+        placeholder="Enter your full name"
+      />
+      <input
+        class="order-form-input"
+        type="email"
+        name="email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+        title="Email must be in the following order: characters@characters.domain."
+        placeholder="Enter your email"
+      />
+      <textarea
+        class="order-form-textarea"
+        name="coments"
+        placeholder="Comments"
+      ></textarea>
+      <button class="order-form-button" type="submit">Send</button>
+    </form>
+  </div>
+</section>
