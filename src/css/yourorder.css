@@ -21,14 +21,13 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 375px;
-  padding: 550px 0 0 0;
   padding-top: 550px;
   margin-bottom: 80px;
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .hero-container {
+    .background {
       background-image: url(../img/yourorder/mob-order-2x.jpg);
     }
   }
@@ -97,13 +96,78 @@ textarea {
   border: 1px solid var(--gray-color);
   margin: 0 auto;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   min-width: 145px;
   height: 49px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-form-button:hover,
 .order-form-button:focus {
   border-color: var(--yellow-color);
+}
+
+.yourorder-img {
+  display: none;
+}
+/* ------------------------Media---------------------------------- */
+
+@media screen and (min-width: 768px) {
+  .background {
+    background-image: url(../img/yourorder/tab-order.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 768px;
+    padding-top: 776px;
+    margin-bottom: 100px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .background {
+        background-image: url(../img/yourorder/tab-order-2x.jpg);
+      }
+    }
+  }
+  .yourorder-tittle {
+    font-size: 44px;
+    line-height: 1.32;
+    max-width: ;
+    width: 542px;
+  }
+
+  .order-form-input,
+  .order-form-textarea {
+    max-width: 508px;
+  }
+
+  .order-form-textarea {
+    min-height: 196px;
+  }
+
+  .order-form-button {
+    min-width: 168px;
+    height: 50px;
+    padding-right: 39px;
+    padding-left: 39px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .yourorder-wrap-img {
+    width: 736px;
+    min-height: 600px;
+    background-image: url(../img/yourorder/ornamentgrey.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -130px -116px;
+  }
+
+  .yourorder-img {
+    border-radius: 4px;
+    display: block;
+    margin-left: auto;
+  }
 }
