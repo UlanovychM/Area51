@@ -1,3 +1,11 @@
+@import url('./footer.css');
+@import url('./testimonials.css');
+@import url('./header.css');
+@import url('./yourorder.css');
+@import url('./aboutus.css');
+@import url('./hero.css');
+@import url('./ourcollection.css');
+
 h1,
 h2,
 h3,
@@ -94,10 +102,4 @@ img {
   }
 }
 
-@import url('./footer.css');
-@import url('./testimonials.css');
-@import url('./header.css');
-@import url('./yourorder.css');
-@import url('./aboutus.css');
-@import url('./hero.css');
-@import url('./ourcollection.css');
+
