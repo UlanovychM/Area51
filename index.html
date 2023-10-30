@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Vyshyvanka Vibes</title>
-    <link rel="stylesheet" href="/food-vite-96/assets/index-4c8f4d9f.css">
+    <link rel="stylesheet" href="/food-vite-96/assets/index-932ab8d1.css">
   </head>
   <body>
     <header class="header">
@@ -27,18 +27,16 @@
     <nav class="header__nav">
       <ul class="header__menu_items">
         <li class="header__menu_item">
-          <a href="aboutus.html" class="header__menu_link">About us</a>
+          <a href="#aboutus" class="header__menu_link">About us</a>
         </li>
         <li class="header__menu_item">
-          <a href="ourcollection.html" class="header__menu_link"
-            >Our collection</a
-          >
+          <a href="#ourcollection" class="header__menu_link">Our collection</a>
         </li>
         <li class="header__menu_item">
-          <a href="yourorder.html" class="header__menu_link">CUSTOMER ORDER</a>
+          <a href="#yourorder" class="header__menu_link">CUSTOMER ORDER</a>
         </li>
         <li class="header__menu_item">
-          <a href="aboutus.html" class="header__menu_link">TEstimonials</a>
+          <a href="#testimonials" class="header__menu_link">TEstimonials</a>
         </li>
       </ul>
     </nav>
@@ -49,21 +47,21 @@
 
     <ul class="header__social_links">
       <li class="header__social_link">
-        <a href="" class="header__link">
+        <a href="https://www.facebook.com/goITclub/" class="header__link">
           <svg class="header__item_icon" width="28" height="28">
             <use href="../img/icons.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="header__social_link">
-        <a href="" class="header__link">
+        <a href="https://www.instagram.com/goitclub/" class="header__link">
           <svg class="header__item_icon" width="28" height="28">
             <use href="../img/icons.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="header__social_link">
-        <a href="" class="header__link">
+        <a href="https://www.youtube.com/c/GoIT" class="header__link">
           <svg class="header__item_icon" width="28" height="28">
             <use href="../img/icons.svg#icon-youtube"></use>
           </svg>
@@ -112,24 +110,26 @@
 
 
     <main>
-      <section class="hero">
-    <div class="container">
-        <h1 class="hero-title"> Reviving the traditional Ukrainian artistry in every stitch. </h1>
-        <button type="button" class="hero-btn" data-modal-open>Order<svg class="icon-button" width="26" height="10">
-            <use href="../img/icons.svg#icon-arrow"></use>
-
-         
-        
-        </svg>
-        </button>
-        <img class="picture" src="../img/hero/mob-hero.jpg" width="335" height="545" alt="monitor"/>
-
-
-
-    </div>
-
-
+      <section class="hero is-close" id="hero">
+  <div class="container">
+    <h1 class="hero-title">
+      Reviving the traditional Ukrainian artistry in every stitch.
+    </h1>
+    <button type="button" class="hero-btn" data-modal-open>
+      Order<svg class="icon-button" width="26" height="10">
+        <use href="../img/icons.svg#icon-arrow"></use>
+      </svg>
+    </button>
+    <img
+      class="picture"
+      src="../img/hero/mob-hero.jpg"
+      width="335"
+      height="545"
+      alt="monitor"
+    />
+  </div>
 </section>
+
       <section class="section aboutus-section" id="about">
   <div class="container aboutus-container">
     <div class="aboutus-wrapper">
@@ -181,7 +181,7 @@
   </div>
 </section>
 
-      <section class="collection container">
+      <section class="collection container" id="ourcollection">
   <div class="div-container">
     <h2 class="collection-title">Our Collection</h2>
     <ul class="collection-list list">
@@ -449,95 +449,81 @@
   </div>
 </section>
 
-      <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testimonials</title>
-    <link rel="stylesheet" href="../css/testimonials.css" />
-  </head>
-  <body>
-    <section class="section testimonials container">
-      <h2 class="testi-title">Testimonials</h2>
+      <section class="section testimonials container" id="testimonials">
+  <h2 class="testi-title">Testimonials</h2>
 
-      <ul class="testimonials-card-list">
-        <li class="testimonials-card-item first-card">
-          <div class="testi-photo-wrap">
-            <img
-              class="testi-photo"
-              srcset="
-                ../img/testimonials/testi-photo1-min.png,
-                ../img/testimonials/testi-photo1-2x-min.png
-              "
-              src="../img/testimonials/testi-photo1-min.png"
-              alt="Maria"
-              width="64"
-              height="64"
-            />
-          </div>
+  <ul class="testimonials-card-list">
+    <li class="testimonials-card-item first-card">
+      <div class="testi-photo-wrap">
+        <img
+          class="testi-photo"
+          srcset="
+            ../img/testimonials/testi-photo1-min.png,
+            ../img/testimonials/testi-photo1-2x-min.png
+          "
+          src="../img/testimonials/testi-photo1-min.png"
+          alt="Maria"
+          width="64"
+          height="64"
+        />
+      </div>
 
-          <h3 class="testi-photo-name">Maria Tkachuk</h3>
-          <p class="testi-text">
-            I was pleasantly surprised by the variety of embroidery offered by
-            Vyshyvanka Vibes. They have models for every taste - from classic to
-            modern. I bought an embroidered dress to celebrate a special
-            occasion and received impeccable service and refinement in every
-            detail.
-          </p>
-        </li>
-        <li class="testimonials-card-item second-card">
-          <div class="testi-photo-wrap">
-            <img
-              class="testi-photo"
-              srcset="
-                ../img/testimonials/testi-photo2-min.png,
-                ../img/testimonials/testi-photo2-2x-min.png
-              "
-              src="../img/testimonials/testi-photo2-min.png"
-              alt="Sergey"
-              width="64"
-              height="64"
-            />
-          </div>
+      <h3 class="testi-photo-name">Maria Tkachuk</h3>
+      <p class="testi-text">
+        I was pleasantly surprised by the variety of embroidery offered by
+        Vyshyvanka Vibes. They have models for every taste - from classic to
+        modern. I bought an embroidered dress to celebrate a special occasion
+        and received impeccable service and refinement in every detail.
+      </p>
+    </li>
+    <li class="testimonials-card-item second-card">
+      <div class="testi-photo-wrap">
+        <img
+          class="testi-photo"
+          srcset="
+            ../img/testimonials/testi-photo2-min.png,
+            ../img/testimonials/testi-photo2-2x-min.png
+          "
+          src="../img/testimonials/testi-photo2-min.png"
+          alt="Sergey"
+          width="64"
+          height="64"
+        />
+      </div>
 
-          <h3 class="testi-photo-name">Sergey Rybachok</h3>
-          <p class="testi-text">
-            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
-            simply masterpieces! I fell in love with the quality of the
-            materials and the skill of the artisans behind each product. This is
-            my favorite embroidery shop where I always find something special
-            and unique.
-          </p>
-        </li>
-        <li class="testimonials-card-item third-card">
-          <div class="testi-photo-wrap">
-            <img
-              class="testi-photo"
-              srcset="
-                ../img/testimonials/testi-photo3-min.png,
-                ../img/testimonials/testi-photo2-3x-min.png
-              "
-              src="../img/testimonials/testi-photo3-min.png"
-              alt="Natalia"
-              width="64"
-              height="64"
-            />
-          </div>
+      <h3 class="testi-photo-name">Sergey Rybachok</h3>
+      <p class="testi-text">
+        Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+        simply masterpieces! I fell in love with the quality of the materials
+        and the skill of the artisans behind each product. This is my favorite
+        embroidery shop where I always find something special and unique.
+      </p>
+    </li>
+    <li class="testimonials-card-item third-card">
+      <div class="testi-photo-wrap">
+        <img
+          class="testi-photo"
+          srcset="
+            ../img/testimonials/testi-photo3-min.png,
+            ../img/testimonials/testi-photo2-3x-min.png
+          "
+          src="../img/testimonials/testi-photo3-min.png"
+          alt="Natalia"
+          width="64"
+          height="64"
+        />
+      </div>
 
-          <h3 class="testi-photo-name">Natalia Chatuk</h3>
-          <p class="testi-text">
-            Vyshyvanka Vibes is a real find for everyone who appreciates
-            Ukrainian culture. Their embroidery reflects the spirit and
-            traditions of our people. I not only buy embroidered shirts for
-            myself, but also give them to my friends abroad as a symbol of our
-            beauty and national pride.
-          </p>
-        </li>
-      </ul>
-    </section>
-  </body>
-</html>
+      <h3 class="testi-photo-name">Natalia Chatuk</h3>
+      <p class="testi-text">
+        Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian
+        culture. Their embroidery reflects the spirit and traditions of our
+        people. I not only buy embroidered shirts for myself, but also give them
+        to my friends abroad as a symbol of our beauty and national pride.
+      </p>
+    </li>
+  </ul>
+</section>
 
     </main>
     <!-- Loads the specified .html file -->
