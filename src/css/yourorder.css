@@ -10,11 +10,6 @@ button {
 textarea {
   resize: none;
 }
-/* .container {
-  width: 100%;
-  max-width: 1280;
-  padding: 0 20px;
-} */
 
 .background {
   background-image: url(../img/yourorder/mob-order.jpg);
@@ -72,6 +67,7 @@ textarea {
   min-height: 168px;
   resize: none;
   margin-bottom: 40px;
+  border-radius: 8px;
 }
 
 .order-form-input::placeholder,
@@ -134,7 +130,6 @@ textarea {
   .yourorder-tittle {
     font-size: 44px;
     line-height: 1.32;
-    max-width: ;
     width: 542px;
   }
 
@@ -157,17 +152,69 @@ textarea {
   }
 
   .yourorder-wrap-img {
-    width: 736px;
-    min-height: 600px;
+  }
+
+  .yorder {
+    padding-bottom: 79px;
+    /* width: 736px;
+    min-height: 600px; */
     background-image: url(../img/yourorder/ornamentgrey.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -130px -116px;
+    background-size: 306px 484px;
+    background-position: left bottom;
   }
 
   .yourorder-img {
     border-radius: 4px;
     display: block;
     margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .background {
+    background-image: url(../img/yourorder/desk-order.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 150px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .background {
+        background-image: url(../img/yourorder/desk-order-2x.jpg);
+      }
+    }
+  }
+
+  .order-form-button {
+    margin-bottom: 0px;
+  }
+
+  .yorder {
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+    background-image: url(../img/yourorder/ornamentgrey.png);
+    background-repeat: no-repeat;
+    background-size: 272px 484px;
+    background-position: left bottom;
+  }
+
+  .order .container {
+    padding-left: 64px;
+  }
+
+  .yourorder-wrap-desk {
+    max-width: 542px;
+  }
+
+  .yourorder-img {
+    border-radius: 4px;
+    display: block;
+    width: 524px;
+    height: 521px;
   }
 }
