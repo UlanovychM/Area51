@@ -158,10 +158,18 @@ textarea {
     padding-bottom: 79px;
     /* width: 736px;
     min-height: 600px; */
-    background-image: url(../img/yourorder/ornamentgrey.png);
+    background-image: url(../img/yourorder/tab-ornamentgrey.png);
     background-repeat: no-repeat;
     background-size: 306px 484px;
     background-position: left bottom;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .yorder {
+        background-image: url(../img/yourorder/tab-ornamentgrey-2x.png);
+      }
+    }
   }
 
   .yourorder-img {
@@ -177,7 +185,8 @@ textarea {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 150px;
+    max-width: 1440px;
+    margin: 0 auto 150px;
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -197,10 +206,18 @@ textarea {
     gap: 50px;
     flex-direction: row-reverse;
     padding-bottom: 0;
-    background-image: url(../img/yourorder/ornamentgrey.png);
+    background-image: url(../img/yourorder/desk-ornamentgrey.png);
     background-repeat: no-repeat;
     background-size: 272px 484px;
     background-position: left bottom;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .yorder {
+        background-image: url(../img/yourorder/desk-ornamentgrey-2x.png);
+      }
+    }
   }
 
   .order .container {
@@ -210,11 +227,60 @@ textarea {
   .yourorder-wrap-desk {
     max-width: 542px;
   }
-
-  .yourorder-img {
-    border-radius: 4px;
-    display: block;
-    width: 524px;
-    height: 521px;
-  }
 }
+
+/* @media screen and (min-width: 1440px) {
+  .order .container {
+    max-width: 1440px;
+  }
+
+  .background {
+    background-image: url(../img/yourorder/desk1440-order.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .background {
+        background-image: url(../img/yourorder/desk1440-order-2x.jpg);
+      }
+    }
+  }
+
+  .yorder {
+    display: flex;
+    align-items: start;
+    gap: 50px;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+    background-image: url(../img/yourorder/tab-ornamentgrey.png);
+    background-repeat: no-repeat;
+    background-size: 306px 484px;
+    background-position: left bottom;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .yorder {
+        background-image: url(../img/yourorder/tab-ornamentgrey-2x.png);
+      }
+    }
+  }
+
+  .order .container {
+    padding-left: 100px;
+  }
+
+  .yourorder-tittle {
+    width: 666px;
+  }
+  .yourorder-img {
+    margin-left: 0;
+  }
+  .yourorder-wrap-desk {
+    width: 666px;
+  }
+} */
