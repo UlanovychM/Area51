@@ -60,7 +60,7 @@
   }
 
   .testimonials-card-item {
-    max-width: 336px;
+    width: 336px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,4 +83,3 @@
     width: calc((100% - 52px) / 3);
   }
 }
-

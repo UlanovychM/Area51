@@ -79,6 +79,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  overflow: hidden;
 
   font-size: 12px;
   font-style: normal;
@@ -89,6 +90,10 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
+}
+
+.mobile__menu .container {
+  max-width: 380px;
 }
 
 .burger__button {
