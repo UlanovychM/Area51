@@ -89,7 +89,7 @@
   background-image: url('../img/header/ornamentgrey2.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: 340px 300px;
 }
 
 .mobile__menu .container {
@@ -140,6 +140,7 @@
 @media (min-width: 768px) {
   .mobile__menu {
     background-image: url('../img/header/ornamentgrey.png');
+    background-size: 380px 300px;
   }
 
   .header__social_links {
