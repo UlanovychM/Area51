@@ -1,3 +1,51 @@
+@import url('./footer.css');
+@import url('./testimonials.css');
+@import url('./header.css');
+@import url('./yourorder.css');
+@import url('./aboutus.css');
+@import url('./hero.css');
+@import url('./ourcollection.css');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .collection {
   background: #1c2225;
   padding-top: 80px;
@@ -56,6 +104,7 @@
   text-transform: uppercase;
   margin-bottom: 8px;
   text-align: left;
+  /* width: 335px; */
 }
 .collection-item-price {
   color: rgba(252, 249, 249, 0.4);
@@ -104,6 +153,8 @@
 
   .collection-subtitle {
     font-size: 18px;
+    white-space: nowrap;
+    /* width: 342px; */
   }
   .collection-item-price {
     font-size: 18px;
@@ -111,6 +162,9 @@
 
   .collection-img {
     width: 342px;
+  }
+
+  .span-subtitle {
   }
 }
 
@@ -133,6 +187,12 @@
       background-image: url(../img/ourcollection/ornamentyellow-desk-2x.png);
     }
   }
+
+
+  .collection-subtitle {
+    white-space: nowrap;
+  }
+
 
   .collection-item {
     width: calc((100% - 40px) / 3);
