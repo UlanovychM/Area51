@@ -188,10 +188,11 @@ img {
     }
   }
 
+
   .collection-subtitle {
-    /* width: 345px; */
     white-space: nowrap;
   }
+
 
   .collection-item {
     width: calc((100% - 40px) / 3);
