@@ -1,0 +1,164 @@
+.footer {
+  border-top: 1px solid var(--gray-color);
+}
+
+.footer-container {
+  background-repeat: no-repeat;
+
+  background-origin: border-box;
+}
+
+.footer-nav-link {
+  font-size: 14px;
+
+  line-height: 1.29;
+
+  text-transform: uppercase;
+
+  transition: color var(--duration) var(--time-function);
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--yellow-color);
+}
+
+.footer-nav-list {
+  display: flex;
+}
+
+.footer-span {
+  color: var(--yellow-color);
+}
+
+/*MOBILE*/
+
+@media (max-width: 767px) {
+  .footer-title {
+    font-size: 44px;
+
+    line-height: 1.23;
+
+    letter-spacing: -0.03em;
+  }
+
+  .footer-nav-list {
+    column-gap: 40px;
+
+    flex-wrap: wrap;
+
+    row-gap: 25px;
+  }
+
+  .foter-navigation {
+    margin-bottom: 40px;
+  }
+
+  .footer-container {
+    background-image: url('../img/footer/ornamentyellowmob.png');
+
+    background-position: center bottom;
+
+    padding-top: 40px;
+
+    padding-bottom: 292px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 192dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .footer-container {
+      background-image: url('../img/footer/ornamentyellowweb.png');
+
+      background-size: 375px;
+    }
+  }
+
+  .footer-nav-bottom:nth-child(1) {
+    margin-right: 50px;
+  }
+
+  .footer-nav-bottom:nth-child(4) {
+    order: 5;
+  }
+
+  .footer-nav-bottom:nth-child(2) {
+    order: 4;
+  }
+}
+
+/*TABLET*/
+
+@media (min-width: 768px) {
+  .footer-nav-list {
+    gap: 25px;
+
+    margin-bottom: 80px;
+  }
+
+  .footer-container {
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+
+    background-position: right center;
+
+    background-image: url('../img/footer/ornamentyellowtab.png');
+  }
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 192dppx),
+    (min-device-pixel-ratio: 2) {
+    .footer-container {
+      background-image: url('../img/footer/ornamentyellowweb.png');
+
+      background-size: 174px 375px;
+    }
+  }
+
+  .footer-title {
+    font-size: 54px;
+
+    line-height: 1.19;
+
+    letter-spacing: -0.03em;
+
+    width: 521px;
+  }
+
+  .footer-nav-link {
+    transition: color var(--duration) var(--time-function);
+  }
+}
+
+/*DESKTOP*/
+
+@media (min-width: 1280px) {
+  .footer-nav-list {
+    margin-bottom: 117px;
+  }
+
+  .footer-title {
+    font-size: 64px;
+
+    line-height: 1.16;
+
+    letter-spacing: -0.03em;
+
+    width: 754px;
+  }
+
+  .footer-container {
+    background-image: url('../img/footer/ornamentyellowweb.png');
+
+    background-size: 336px 364px;
+  }
+
+  @media (min-resolution: 192dpi),
+    (min-resolution: 192dppx),
+    (min-device-pixel-ratio: 2) {
+    .footer-container {
+      background-image: url('../img/footer/ornamentyellowweb.png');
+    }
+  }
+}

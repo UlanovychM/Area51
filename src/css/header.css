@@ -78,17 +78,22 @@
   background-color: var(--yellow-color);
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
+  overflow: hidden;
 
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 116.667%;
   color: var(--black-color);
-  background-image: url('../img/header/ornamentgrey.png');
+  background-image: url('../img/header/ornamentgrey2.png');
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: auto;
+  background-size: 340px 300px;
+}
+
+.mobile__menu .container {
+  max-width: 380px;
 }
 
 .burger__button {
@@ -133,6 +138,12 @@
 }
 
 @media (min-width: 768px) {
+  .mobile__menu {
+    width: 380px;
+    background-image: url('../img/header/ornamentgrey.png');
+    background-size: 380px 300px;
+  }
+
   .header__social_links {
     margin-left: auto;
   }
