@@ -86,7 +86,7 @@
   font-weight: 400;
   line-height: 116.667%;
   color: var(--black-color);
-  background-image: url('../img/header/ornamentgrey2.png');
+  background-image: url('images/header/ornamentgrey2.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 340px 300px;
@@ -140,7 +140,7 @@
 @media (min-width: 768px) {
   .mobile__menu {
     width: 380px;
-    background-image: url('../img/header/ornamentgrey.png');
+    background-image: url('images/header/ornamentgrey.png');
     background-size: 380px 300px;
   }
 
