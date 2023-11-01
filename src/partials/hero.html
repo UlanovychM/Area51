@@ -1,71 +1,44 @@
-
 <section class="hero">
-    <div class="container conrainer-container">
+    <div class="container conrainer-hero">
         <div class="hero-icon">
             <svg class="icon-title" width="52" height="51">
                 <use href="../img/icons.svg#icon-sun"></use>
             </svg>
-            <p class="icon-text"> all embroidery is made by hand </p>
-        
-        
-        
-        
+            <p class="icon-text">all embroidery is made by hand</p>
         </div>
 
-        
-        <div class="hero-center">
-        <h1 class="hero-title"> Reviving the traditional <span class="hero-logo-italic">Ukrainian</span>  artistry in every stitch. </h1>
+        <div class="hero-front">
+            <div class="hero-center">
+                <h1 class="hero-title">
+                    Reviving the traditional
+                    <span class="hero-logo-italic">Ukrainian</span> artistry in every
+                    stitch.
+                </h1>
 
+                <button type="button" class="hero-btn" data-modal-open>
+                    Order<svg class="icon-button" width="26" height="26">
+                        <use href="../img/icons.svg#icon-arrow"></use>
+                    </svg>
+                </button>
+            </div>
 
-        
-
-
-
-
-        <button type="button" class="hero-btn" data-modal-open>Order<svg class="icon-button" width="26" height="26">
-            <use href="../img/icons.svg#icon-arrow"></use>
-
-         
-        
-        </svg>
-        </button>
+            <picture>
+                <source media="(min-width: 1280px)"
+                    srcset="../img/hero/desk-hero.jpg 1x, ../img/hero/desk-hero-2x.jpg 2x" />
+                <source media="(min-width: 768px)"
+                    srcset="../img/hero/tab-hero.jpg 1x, ../img/hero/tab-hero-2x.jpg 2x" />
+                <source media="(max-width: 767px)"
+                    srcset="../img/hero/mob-hero.jpg 1x, ../img/hero/mob-hero-2x.jpg 2x" />
+                <img class="picture" src="../img/hero/mob-hero.jpg" alt="monitor" />
+            </picture>
         </div>
-        <div class="hero-front"><img class="picture" src="../img/hero/mob-hero.jpg" width="392" height="545" alt="monitor" /></div>
-        
-
-        <div class="hero-picture">
-        <img class="picture-top" src="../img/hero/tab-hero1.jpg" width="157" height="191" alt="monitor" />
-        </div>
-
-
-
-
-
-
-
-
+        <picture>
+            <source media="(min-width: 1280px)" srcset="
+          ../img/hero/desk-hero1.jpg      1x,
+          ../img/hero/desk-header1-2x.jpg 2x
+        " />
+            <source media="(min-width: 768px)" srcset="../img/hero/tab-hero1.jpg 1x, ../img/hero/tab-hero1-2x.jpg 2x" />
+            <img class="picture-top" src="../img/hero/tab-hero1.jpg" alt="monitor" />
+        </picture>
     </div>
-
-
 </section>
-
-<section class="hero is-close" id="hero">
-  <div class="container">
-    <h1 class="hero-title">
-      Reviving the traditional Ukrainian artistry in every stitch.
-    </h1>
-    <button type="button" class="hero-btn" data-modal-open>
-      Order<svg class="icon-button" width="26" height="10">
-        <use href="../img/icons.svg#icon-arrow"></use>
-      </svg>
-    </button>
-    <img
-      class="picture"
-      src="../img/hero/mob-hero.jpg"
-      width="335"
-      height="545"
-      alt="monitor"
-    />
-  </div>
-</section>
-
