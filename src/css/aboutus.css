@@ -4,7 +4,7 @@
 }
 
 .aboutus-container {
-  background-image: url(images/aboutus/about-ornament-mobile.png);
+  background-image: url(/images/aboutus/about-ornament-mobile.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: 250px 408px;
@@ -16,7 +16,7 @@
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
     .aboutus-container {
-      background-image: url('images/aboutus/about-ornament-mobile@2x.png');
+      background-image: url('/images/aboutus/about-ornament-mobile@2x.png');
     }
   }
 }
@@ -47,7 +47,7 @@
 /* 768px - 1280px */
 @media (min-width: 768px) {
   .aboutus-container {
-    background-image: url(images/aboutus/about-ornament-tablet.png);
+    background-image: url(/images/aboutus/about-ornament-tablet.png);
     background-size: 369px 484px;
     padding-bottom: 50px;
   }
@@ -56,7 +56,7 @@
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
     .aboutus-container {
-      background-image: url('images/aboutus/about-ornament-tablet@2x.png');
+      background-image: url('/images/aboutus/about-ornament-tablet@2x.png');
     }
   }
 
@@ -77,7 +77,7 @@
 /* 1280px - 1440px */
 @media (min-width: 1280px) {
   .aboutus-container {
-    background-image: url(images/aboutus/about-ornament-desktop.png);
+    background-image: url(/images/aboutus/about-ornament-desktop.png);
     background-size: 385px 484px;
     padding-bottom: 80px;
     display: flex;
@@ -88,7 +88,7 @@
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
     .aboutus-container {
-      background-image: url('images/aboutus/about-ornament-desktop@2x.png');
+      background-image: url('/images/aboutus/about-ornament-desktop@2x.png');
     }
   }
 
@@ -104,7 +104,7 @@
 /* 1440px - and others */
 /* @media (min-width: 1440px) {
       .aboutus-container {
-        background-image: url(images/aboutus/about-ornament-desktop-big.png);
+        background-image: url(/images/aboutus/about-ornament-desktop-big.png);
         background-size: 545px 484px;
       }
   
@@ -112,7 +112,7 @@
       (min-resolution: 2dppx),
       (min-device-pixel-ratio: 2) {
         .aboutus-container {
-          background-image: url('images/aboutus/about-ornament-desktop-big@2x.png');
+          background-image: url('/images/aboutus/about-ornament-desktop-big@2x.png');
         }
       }
   

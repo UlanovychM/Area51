@@ -55,7 +55,7 @@
   }
 
   .footer-container {
-    background-image: url('images/footer/ornamentyellowmob.png');
+    background-image: url('/images/footer/ornamentyellowmob.png');
 
     background-position: center bottom;
 
@@ -68,7 +68,7 @@
     screen and (min-resolution: 192dppx),
     screen and (min-device-pixel-ratio: 2) {
     .footer-container {
-      background-image: url('images/footer/ornamentyellowweb.png');
+      background-image: url('/images/footer/ornamentyellowweb.png');
 
       background-size: 375px;
     }
@@ -103,14 +103,14 @@
 
     background-position: right center;
 
-    background-image: url('images/footer/ornamentyellowtab.png');
+    background-image: url('/images/footer/ornamentyellowtab.png');
   }
 
   @media (min-resolution: 192dpi),
     (min-resolution: 192dppx),
     (min-device-pixel-ratio: 2) {
     .footer-container {
-      background-image: url('images/footer/ornamentyellowweb.png');
+      background-image: url('/images/footer/ornamentyellowweb.png');
 
       background-size: 174px 375px;
     }
@@ -149,7 +149,7 @@
   }
 
   .footer-container {
-    background-image: url('images/footer/ornamentyellowweb.png');
+    background-image: url('/images/footer/ornamentyellowweb.png');
 
     background-size: 336px 364px;
   }
@@ -158,7 +158,7 @@
     (min-resolution: 192dppx),
     (min-device-pixel-ratio: 2) {
     .footer-container {
-      background-image: url('images/footer/ornamentyellowweb.png');
+      background-image: url('/images/footer/ornamentyellowweb.png');
     }
   }
 }
