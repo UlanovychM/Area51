@@ -14,7 +14,7 @@ Vika du Preez - Developer
 
 
 
-Відповідальні за категорії
+Відповідальні за секції
 Ulanovych Mykhailo - header
 Tetiana Mishchuk - footer/about us
 Anatoliy Modzhar - Our collection
