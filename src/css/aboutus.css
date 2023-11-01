@@ -1,112 +1,110 @@
 /* CSS */
 .aboutus-section {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .aboutus-container {
-    background-image: url(/img/aboutus/about-ornament-mobile.png);
-    background-position: right bottom;
-        background-repeat: no-repeat;
-        background-size: 250px 408px;
-        padding-bottom: 62px;
+  background-image: url(images/aboutus/about-ornament-mobile.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 250px 408px;
+  padding-bottom: 62px;
 }
 
 @media (max-width: 767px) {
-    @media (min-resolution: 192dpi),
+  @media (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
-        .aboutus-container {
-            background-image: url('/img/aboutus/about-ornament-mobile@2x.png');
-        }
+    .aboutus-container {
+      background-image: url('images/aboutus/about-ornament-mobile@2x.png');
     }
+  }
 }
 
 .aboutus-wrapper {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .aboutus-title {
-    font-size: 32px;
-        font-weight: 500;
-        line-height: 1.38;
-        letter-spacing: -0.03em;
-        margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
 }
 
 .aboutus-text {
-    color: var(--light-gray-color);
-    font-size: 14px;
-    letter-spacing: -0.04em;
-    margin-bottom: 20px;
+  color: var(--light-gray-color);
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 .aboutus-img {
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* 768px - 1280px */
 @media (min-width: 768px) {
-    .aboutus-container {
-        background-image: url(/img/aboutus/about-ornament-tablet.png);
-        background-size: 369px 484px;
-        padding-bottom: 50px;
-    }
+  .aboutus-container {
+    background-image: url(images/aboutus/about-ornament-tablet.png);
+    background-size: 369px 484px;
+    padding-bottom: 50px;
+  }
 
-
-    @media (min-resolution: 192dpi),
+  @media (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
-
-        .aboutus-container {
-            background-image: url('/img/aboutus/about-ornament-tablet@2x.png');
-        }
+    .aboutus-container {
+      background-image: url('images/aboutus/about-ornament-tablet@2x.png');
     }
+  }
 
-    .aboutus-wrapper {
-        margin-bottom: 40px;
-    }
+  .aboutus-wrapper {
+    margin-bottom: 40px;
+  }
 
-    .aboutus-title {
-        font-size: 44px;
-        line-height: 1.45;
-    }
+  .aboutus-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
 
-    .aboutus-text {
-        font-size: 16px;
-    }
+  .aboutus-text {
+    font-size: 16px;
+  }
 }
 
 /* 1280px - 1440px */
 @media (min-width: 1280px) {
-    .aboutus-container {
-        background-image: url(/img/aboutus/about-ornament-desktop.png);
-        background-size: 385px 484px;
-        padding-bottom: 80px;
-        display: flex;
-        column-gap: 50px;
-    }
+  .aboutus-container {
+    background-image: url(images/aboutus/about-ornament-desktop.png);
+    background-size: 385px 484px;
+    padding-bottom: 80px;
+    display: flex;
+    column-gap: 50px;
+  }
 
-    @media (min-resolution: 192dpi),
+  @media (min-resolution: 192dpi),
     (min-resolution: 2dppx),
     (min-device-pixel-ratio: 2) {
-        .aboutus-container {
-            background-image: url('/img/aboutus/about-ornament-desktop@2x.png');
-        }
+    .aboutus-container {
+      background-image: url('images/aboutus/about-ornament-desktop@2x.png');
     }
+  }
 
-    .aboutus-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 436px;
-        margin-bottom: 0;
-    }
+  .aboutus-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 436px;
+    margin-bottom: 0;
+  }
 }
 
 /* 1440px - and others */
 /* @media (min-width: 1440px) {
       .aboutus-container {
-        background-image: url(/img/aboutus/about-ornament-desktop-big.png);
+        background-image: url(images/aboutus/about-ornament-desktop-big.png);
         background-size: 545px 484px;
       }
   
@@ -114,7 +112,7 @@
       (min-resolution: 2dppx),
       (min-device-pixel-ratio: 2) {
         .aboutus-container {
-          background-image: url('/img/aboutus/about-ornament-desktop-big@2x.png');
+          background-image: url('images/aboutus/about-ornament-desktop-big@2x.png');
         }
       }
   
