@@ -1,55 +1,7 @@
-@import url('./footer.css');
-@import url('./testimonials.css');
-@import url('./header.css');
-@import url('./yourorder.css');
-@import url('./aboutus.css');
-@import url('./hero.css');
-@import url('./ourcollection.css');
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .collection {
   background: #1c2225;
   padding-top: 80px;
-  background-image: url(../img/ourcollection/ornamentyellow.png);
+  background-image: url(/images/ourcollection/ornamentyellow.png);
   background-size: 90px 177px;
   background-repeat: no-repeat;
   background-position: top 320px left -25px;
@@ -131,7 +83,7 @@ img {
 
   .collection {
     padding-top: 100px;
-    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-image: url(/images/ourcollection/ornamentyellow.png);
     background-size: 110px 300px;
     background-repeat: no-repeat;
     background-position: top 300px left 0px;
@@ -141,7 +93,7 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .collection {
-      background-image: url(../img/ourcollection/ornamentyellow-tab-2x.png);
+      background-image: url(/images/ourcollection/ornamentyellow-tab-2x.png);
     }
   }
 
@@ -174,7 +126,7 @@ img {
   }
 
   .collection {
-    background-image: url(../img/ourcollection/ornamentyellow.png);
+    background-image: url(/images/ourcollection/ornamentyellow.png);
     background-size: 160px 300px;
     background-repeat: no-repeat;
     background-position: top 290px left 0px;
@@ -184,15 +136,13 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .collection {
-      background-image: url(../img/ourcollection/ornamentyellow-desk-2x.png);
+      background-image: url(/images/ourcollection/ornamentyellow-desk-2x.png);
     }
   }
-
 
   .collection-subtitle {
     white-space: nowrap;
   }
-
 
   .collection-item {
     width: calc((100% - 40px) / 3);
