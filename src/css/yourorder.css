@@ -18,13 +18,13 @@ textarea {
   background-size: 375px;
   padding-top: 550px;
   margin-bottom: 80px;
+}
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .background {
-      background-image: url(/images/yourorder/mob-order-2x.jpg);
-    }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background {
+    background-image: url(/images/yourorder/mob-order-2x.jpg);
   }
 }
 
@@ -32,7 +32,7 @@ textarea {
   color: var(--white);
   font-size: 32px;
   font-weight: 500;
-  line-height: 1, 37;
+  line-height: 137%;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
@@ -118,13 +118,13 @@ textarea {
     background-size: 768px;
     padding-top: 776px;
     margin-bottom: 100px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .background {
-        background-image: url(/images/yourorder/tab-order-2x.jpg);
-      }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background {
+      background-image: url(/images/yourorder/tab-order-2x.jpg);
     }
   }
   .yourorder-tittle {
@@ -184,13 +184,13 @@ textarea {
     background-size: cover;
     max-width: 1440px;
     margin: 0 auto 150px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .background {
-        background-image: url(/images/yourorder/desk-order-2x.jpg);
-      }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background {
+      background-image: url(/images/yourorder/desk-order-2x.jpg);
     }
   }
 
@@ -225,6 +225,7 @@ textarea {
     max-width: 542px;
   }
 }
+
 /* 
 @media screen and (min-width: 1440px) {
   .order .container {
