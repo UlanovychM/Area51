@@ -1,4 +1,5 @@
 .hero {
+
     padding-top: 60px;
     padding-bottom: 40px;
 }
@@ -196,7 +197,3 @@ border-color: var(--yellow-color);
         /* border-radius: 50%; */
     }
 }
-
-
-
-
