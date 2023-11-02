@@ -8,9 +8,6 @@
   background-origin: border-box;
 }
 
-.div-container {
-}
-
 .collection-title {
   color: var(--white, #fcf9f9);
   font-family: Manrope;
@@ -31,8 +28,6 @@
 
 .collection-item {
   width: 100%;
-  /* padding-left: 20px;
-  padding-right: 20px; */
 }
 .collection-img {
   border-radius: 4px;
@@ -56,7 +51,6 @@
   text-transform: uppercase;
   margin-bottom: 8px;
   text-align: left;
-  /* width: 335px; */
 }
 .collection-item-price {
   color: rgba(252, 249, 249, 0.4);
@@ -70,13 +64,13 @@
 }
 
 @media screen and (min-width: 375px) {
-  .div-container {
+  .container {
     max-width: 375px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .div-container {
+  .container {
     max-width: 734px;
     margin: 0 auto;
   }
@@ -121,7 +115,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .div-container {
+  .container {
     max-width: 1112px;
   }
 
