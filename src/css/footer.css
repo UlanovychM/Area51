@@ -68,7 +68,7 @@
     screen and (min-resolution: 192dppx),
     screen and (min-device-pixel-ratio: 2) {
     .footer-container {
-      background-image: url('/images/footer/ornamentyellowweb.png');
+      background-image: url('/images/footer/ornamentyellowmob.png');
 
       background-size: 375px;
     }
