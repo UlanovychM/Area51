@@ -40,6 +40,23 @@
     margin-left: 90px;
 }
 
+
+.hero-btn:focus{
+border-color: var(--yellow-color);
+
+
+}
+
+.hero-btn:hover {
+    border-color: var(--yellow-color);
+
+
+}
+
+
+
+
+
 .icon-button {
     /* transform: rotate(-30deg);*/
     fill: var(--yellow, #ecd979);
