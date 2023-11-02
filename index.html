@@ -18,8 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <title>Vyshyvanka Vibes</title>
-    <script type="module" crossorigin src="/Area51/assets/index-4586d891.js"></script>
-    <link rel="stylesheet" href="/Area51/assets/index-48f369f5.css">
+    <script type="module" crossorigin src="/Area51/assets/index-fb07d621.js"></script>
+    <link rel="stylesheet" href="/Area51/assets/index-05afd830.css">
   </head>
   <body>
     <header class="header">
@@ -381,25 +381,34 @@
       </h2>
 
       <form class="order-form">
-        <input
-          class="order-form-input"
-          type="text"
-          name="username"
-          autofocus
-          required
-          pattern="[A-Za-z]{1,15}+[A-Za-z]{1,15}+[A-Za-z]{1,15}"
-          title="Username should be used contain any letter case."
-          placeholder="Enter your full name"
-        />
-        <input
-          class="order-form-input"
-          type="email"
-          name="email"
-          required
-          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
-          title="Email must be in the following order: characters@characters.domain."
-          placeholder="Enter your email"
-        />
+        <div class="input-wrap">
+          <input
+            class="order-form-input"
+            type="text"
+            name="username"
+            required
+            pattern="^(\w\w+)\s(\w+)$"
+            placeholder="Enter your full name"
+          />
+          <span class="form__error"
+            >Enter a first name (single word) followed by a last name (single
+            word) separated with a single space character.</span
+          >
+        </div>
+        <div class="input-wrap">
+          <input
+            class="order-form-input"
+            type="email"
+            name="email"
+            required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+            placeholder="Enter your email"
+          />
+          <span class="form__error"
+            >Email must be in the following order:
+            characters@characters.domain.</span
+          >
+        </div>
         <textarea
           class="order-form-textarea"
           name="coments"
