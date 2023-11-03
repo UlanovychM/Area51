@@ -11,6 +11,7 @@
 
 .header__nav {
   display: none;
+  margin-left: 12px;
 }
 
 .header__contacts_link {
@@ -161,6 +162,9 @@
     display: flex;
     justify-content: center;
     padding-top: 26.5px;
+  }
+  .header__nav {
+    margin-left: 0;
   }
 
   .mobile__menu_nav {
