@@ -40,6 +40,11 @@
   margin-left: 90px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  border: 1px solid var(--yellow, #ecd979);
+}
+
 .icon-button {
   /* transform: rotate(-30deg);*/
   fill: var(--yellow, #ecd979);
