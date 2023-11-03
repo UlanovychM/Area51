@@ -10,26 +10,21 @@ button {
 textarea {
   resize: none;
 }
-/* .container {
-  width: 100%;
-  max-width: 1280;
-  padding: 0 20px;
-} */
 
 .background {
-  background-image: url(../img/yourorder/mob-order.jpg);
+  background-image: url(/images/yourorder/mob-order.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 375px;
   padding-top: 550px;
   margin-bottom: 80px;
+}
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .background {
-      background-image: url(../img/yourorder/mob-order-2x.jpg);
-    }
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background {
+    background-image: url(/images/yourorder/mob-order-2x.jpg);
   }
 }
 
@@ -37,7 +32,7 @@ textarea {
   color: var(--white);
   font-size: 32px;
   font-weight: 500;
-  line-height: 1, 37;
+  line-height: 1.37;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
@@ -45,7 +40,9 @@ textarea {
 .title-color {
   color: var(--yellow-color);
 }
-
+.input-wrap {
+  width: 100%;
+}
 .order-form-input,
 .order-form-textarea {
   width: 100%;
@@ -72,6 +69,7 @@ textarea {
   min-height: 168px;
   resize: none;
   margin-bottom: 40px;
+  border-radius: 8px;
 }
 
 .order-form-input::placeholder,
@@ -112,23 +110,44 @@ textarea {
 .yourorder-img {
   display: none;
 }
+
+.form__error {
+  color: rgb(210, 47, 47);
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  display: none;
+}
+input:valid:not(:placeholder-shown) {
+  border-color: rgb(114, 222, 114);
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: rgb(188, 63, 63);
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
 /* ------------------------Media---------------------------------- */
 
 @media screen and (min-width: 768px) {
   .background {
-    background-image: url(../img/yourorder/tab-order.jpg);
+    background-image: url(/images/yourorder/tab-order.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 768px;
     padding-top: 776px;
     margin-bottom: 100px;
+  }
 
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .background {
-        background-image: url(../img/yourorder/tab-order-2x.jpg);
-      }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background {
+      background-image: url(/images/yourorder/tab-order-2x.jpg);
     }
   }
   .yourorder-tittle {
@@ -155,13 +174,22 @@ textarea {
     margin-bottom: 100px;
   }
 
-  .yourorder-wrap-img {
-    width: 736px;
-    min-height: 600px;
-    background-image: url(../img/yourorder/ornamentgrey.png);
+  .yorder {
+    padding-bottom: 79px;
+    /* width: 736px;
+    min-height: 600px; */
+    background-image: url(/images/yourorder/tab-ornamentgrey.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: -130px -116px;
+    background-size: 306px 484px;
+    background-position: left bottom;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .yorder {
+      background-image: url(/images/yourorder/tab-ornamentgrey-2x.png);
+    }
   }
 
   .yourorder-img {
@@ -170,3 +198,110 @@ textarea {
     margin-left: auto;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .background {
+    background-image: url(/images/yourorder/desk-order.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto 150px;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background {
+      background-image: url(/images/yourorder/desk-order-2x.jpg);
+    }
+  }
+
+  .order-form-button {
+    margin-bottom: 0px;
+  }
+
+  .yorder {
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+    background-image: url(/images/yourorder/desk-ornamentgrey.png);
+    background-repeat: no-repeat;
+    background-size: 272px 484px;
+    background-position: left bottom;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .yorder {
+      background-image: url(/images/yourorder/desk-ornamentgrey-2x.png);
+    }
+  }
+
+  .order .container {
+    padding-left: 64px;
+  }
+
+  .yourorder-wrap-desk {
+    max-width: 542px;
+  }
+}
+
+/* 
+@media screen and (min-width: 1440px) {
+  .order .container {
+    max-width: 1440px;
+  }
+
+  .background {
+    background-image: url(/images/yourorder/desk1440-order.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .background {
+        background-image: url(/images/yourorder/desk1440-order-2x.jpg);
+      }
+    }
+  }
+
+  .yorder {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    flex-direction: row-reverse;
+    padding-bottom: 0;
+    background-image: url(/images/yourorder/tab-ornamentgrey.png);
+    background-repeat: no-repeat;
+    background-size: 306px 484px;
+    background-position: left bottom;
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .yorder {
+        background-image: url(/images/yourorder/tab-ornamentgrey-2x.png);
+      }
+    }
+  }
+
+  .order .container {
+    padding-left: 100px;
+  }
+
+  .yourorder-tittle {
+    width: 666px;
+  }
+  .yourorder-img {
+    margin-left: 0;
+  }
+  .yourorder-wrap-desk {
+    width: 666px;
+  }
+} */

@@ -1,10 +1,10 @@
-@import url('./footer.css');
-@import url('./testimonials.css');
-@import url('./header.css');
-@import url('./yourorder.css');
-@import url('./aboutus.css');
-@import url('./hero.css');
-@import url('./ourcollection.css');
+@import url('footer.css');
+@import url('testimonials.css');
+@import url('header.css');
+@import url('yourorder.css');
+@import url('aboutus.css');
+@import url('hero.css');
+@import url('ourcollection.css');
 
 * {
   margin: 0;
@@ -45,6 +45,12 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 :root {
   font-family: 'Manrope', sans-serif;
   line-height: normal;
@@ -56,11 +62,6 @@ img {
   --gray-color: rgba(252, 249, 249, 0.1);
   --light-gray-color: rgba(252, 249, 249, 0.4);
   --form-placeholder-color: rgba(252, 249, 249, 0.5);
-}
-
-.container {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media screen and (min-width: 375px) {
