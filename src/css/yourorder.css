@@ -41,7 +41,7 @@ textarea {
   color: var(--yellow-color);
 }
 .input-wrap {
-  width: 100%;
+  position: relative;
 }
 .order-form-input,
 .order-form-textarea {
@@ -114,9 +114,10 @@ textarea {
 .form__error {
   color: rgb(210, 47, 47);
   text-align: left;
-  font-size: 12px;
+  font-size: 10px;
   display: block;
   display: none;
+  padding-left: 10px;
 }
 input:valid:not(:placeholder-shown) {
   border-color: rgb(114, 222, 114);
@@ -127,8 +128,8 @@ input:invalid:not(:placeholder-shown) {
 }
 input:invalid:not(:placeholder-shown) + .form__error {
   display: block;
-  margin-bottom: 10px;
-  margin-top: -15px;
+  position: absolute;
+  bottom: 5px;
 }
 
 /* ------------------------Media---------------------------------- */
