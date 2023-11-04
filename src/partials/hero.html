@@ -40,23 +40,14 @@
     </div>
     <picture>
       <source
+        srcset="./images/hero/desk-header1-2x.jpg 1x"
         media="(min-width: 1280px)"
-        srcset="
-          ./images/hero/tab-hero1.jpg       1x,
-          ./images/hero/desk-header1-2x.jpg 2x
-        "
       />
-      <source
-        media="(min-width: 768px)"
-        srcset="
-          ./images/hero/tab-hero1.jpg    1x,
-          ./images/hero/tab-hero1-2x.jpg 2x
-        "
-      />
+      <source srcset="./images/hero/tab-hero1.jpg" media="(min-width: 768px)" />
       <img
-        class="picture-top"
         src="./images/hero/tab-hero1.jpg"
         alt="monitor"
+        class="picture-top"
       />
     </picture>
   </div>
